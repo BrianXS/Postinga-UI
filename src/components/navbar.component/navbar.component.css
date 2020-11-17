@@ -1,0 +1,112 @@
+/* UPPER NAVBAR */
+
+.upper-navbar-wrapper {
+    width: 100%;
+    height: 80px;
+    background: #00448f url("/assets/img/header.jpg");
+    background-blend-mode: luminosity;
+    background-position-y: -1px;
+    box-shadow: 0px 4px 30px -9px #000000;
+    position: relative;
+    color: white;
+}
+
+.upper-navbar-wrapper > .container > .row > .col-3 > h1 { 
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.upper-navbar-wrapper > .container > .row > .col-3 > sub { 
+    margin-left: 1px;
+    font-family: 'Lato', sans-serif;
+    bottom: unset;
+}
+
+.upper-navbar-wrapper > .container > .row > .col-3 {
+    justify-content: space-between;
+}
+
+.upper-navbar-wrapper > .container > .row > .col-3 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.upper-navbar-wrapper > .container > .row > .col-3 > a:last-child {
+    background: linear-gradient(#9ecc04, #7da905);
+    padding: 8px 18px;
+    border-radius: 50px;
+}
+
+.upper-navbar-wrapper > .container > .row > .col-3 > a:last-child:hover {
+    background: linear-gradient(#a5d605, #88b806);
+}
+
+/* middle NAVBAR */
+
+.middle-navbar-wrapper {
+    background: #063f5c;
+    height: 40px;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-10,
+.middle-navbar-wrapper > .container > .row > .col-2 {
+    padding-top: 12px;
+    height: 40px;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-10 > a,
+.middle-navbar-wrapper > .container > .row > .col-2 > a {
+    background: #06557b;
+    color:white;
+    padding: 7px 10px 4px 10px;
+    font-weight: bold;
+    margin-left: 6px;
+    border-radius: 4px 4px 0 0px;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    font-family: 'Titillium Web';
+}
+
+.middle-navbar-wrapper > .container > .row > .col-10 > a:first-child {
+    margin-left: 0px;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-10 > a.active {
+    color: black;
+    background: white;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-2 > a{
+    padding-top: 2px;
+    margin-left: 0px;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-2 > a > span { 
+    font-size: 14px !important;
+}
+
+.middle-navbar-wrapper > .container > .row > .col-2 > a > .global {
+    border-radius: 100%;
+    background: linear-gradient(#62e9ff, #059aa9);
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: 5px;
+    position: absolute;
+    margin-top: 8px;
+}
+
+/* lower navbar */
