@@ -1,0 +1,19 @@
+.wider-col-left {
+    background: white;
+    background-clip: content-box;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px dashed #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.wider-col-right {
+    background: white;
+    background-clip: content-box;
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 1px solid #ccc;
+    border-left: 1px dashed #ccc;
+    border-bottom: 1px solid #ccc;
+}

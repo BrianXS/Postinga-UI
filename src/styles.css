@@ -2,4 +2,158 @@
 body {
     font-family: 'Lato', sans-serif;
     background: #f0eeef;
+    min-width: 1140px;
+}
+
+/* Icons */
+.icon-art {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/art.png");
+    background-size: contain;
+}
+
+.icon-book {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/book.png");
+    background-size: contain;
+}
+
+.icon-business {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    background: url("/assets/img/icons/business.png");
+    background-size: contain;
+}
+
+.icon-comics {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/comics.png");
+    background-size: contain;
+}
+
+.icon-diy {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/DIY.png");
+    background-size: contain;
+}
+
+.icon-downloads {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/downloads.png");
+    background-size: contain;
+}
+
+.icon-health {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/health.png");
+    background-size: contain;
+}
+
+.icon-help {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/help.png");
+    background-size: contain;
+}
+
+.icon-images {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    background: url("/assets/img/icons/images.png");
+    background-size: contain;
+}
+
+.icon-info {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/info.png");
+    background-size: contain;
+}
+
+.icon-music {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/music.png");
+    background-size: contain;
+}
+
+.icon-newspaper {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/newspaper.png");
+    background-size: contain;
+}
+
+.icon-notes {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/notes.png");
+    background-size: contain;
+}
+
+.icon-offtopic {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/offtopic.png");
+    background-size: contain;
+}
+
+.icon-radar {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/radar.png");
+    background-size: contain;
+}
+
+.icon-review {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/reviews.png");
+    background-size: contain;
+}
+
+.icon-science {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/science.png");
+    background-size: contain;
+}
+
+.icon-tv {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/tv.png");
+    background-size: contain;
+}
+
+.icon-videos {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("/assets/img/icons/videos.png");
+    background-size: contain;
 }

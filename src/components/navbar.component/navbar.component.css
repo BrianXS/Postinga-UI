@@ -11,6 +11,11 @@
     color: white;
 }
 
+.upper-navbar-wrapper > .container > .row > .col-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .upper-navbar-wrapper > .container > .row > .col-3 > h1 { 
     margin-top: 10px;
     margin-bottom: -10px;
@@ -54,13 +59,15 @@
     height: 40px;
 }
 
-.middle-navbar-wrapper > .container > .row > .col-10,
+.middle-navbar-wrapper > .container > .row > .col-6,
 .middle-navbar-wrapper > .container > .row > .col-2 {
     padding-top: 12px;
     height: 40px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.middle-navbar-wrapper > .container > .row > .col-10 > a,
+.middle-navbar-wrapper > .container > .row > .col-6 > a,
 .middle-navbar-wrapper > .container > .row > .col-2 > a {
     background: #06557b;
     color:white;
@@ -74,11 +81,11 @@
     font-family: 'Titillium Web';
 }
 
-.middle-navbar-wrapper > .container > .row > .col-10 > a:first-child {
-    margin-left: 0px;
+.middle-navbar-wrapper > .container > .row > .col-6 > a:first-child {
+    margin-left: 1px;
 }
 
-.middle-navbar-wrapper > .container > .row > .col-10 > a.active {
+.middle-navbar-wrapper > .container > .row > .col-6 > a.active {
     color: black;
     background: white;
 }
@@ -90,7 +97,7 @@
 
 .middle-navbar-wrapper > .container > .row > .col-2 > a{
     padding-top: 2px;
-    margin-left: 0px;
+    margin-right: 1px;
 }
 
 .middle-navbar-wrapper > .container > .row > .col-2 > a > span { 
@@ -110,3 +117,39 @@
 }
 
 /* lower navbar */
+.lower-navbar-wrapper > .container > .row > .col-8 {
+    background: linear-gradient(to bottom, white, #eaeaea);
+    background-clip: content-box;
+    height: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.lower-navbar-wrapper > .container > .row > .col-8 > a {
+    color: #1d63b3;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1px 15px;
+    font-size: 14px;
+}
+
+.lower-navbar-wrapper > .container > .row > .col-8 > a:first-child {
+    margin-left: 2px;
+}
+
+.lower-navbar-wrapper > .container > .row > .col-8 > a.active {
+    color: black;
+    background: lightgray;
+    border-radius: 50px;
+}
+
+.lower-navbar-wrapper > .container > .row > .col-8 > a.active:hover {
+    color: black;
+}
+
+.lower-navbar-wrapper > .container > .row > .col-8 > a:hover {
+    color: #1f84f7;
+}
